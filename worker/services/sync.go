@@ -5,7 +5,6 @@ import (
 )
 
 // Wait struct
-// TODO: Assert reflect types are same
 type Wait struct {
 	ValueType reflect.Type
 	Channel   chan interface{}
